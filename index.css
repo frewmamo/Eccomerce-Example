@@ -1,0 +1,92 @@
+.navbar {
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: black;
+}
+h1, h2 {
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.Hero-image {
+    background-image: url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body {
+    background-color: aqua;
+}
+.fling-minislide {
+    width:350px; 
+    height:300px; 
+    overflow:hidden; 
+    position:relative;
+ }
+.fling-minislide img { 
+position: absolute; 
+animation:fling-minislide 20s infinite; opacity:0; 
+width: 100%; 
+height: auto;
+text-align: center;
+}
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+/* footer */
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .social {
+    width: 25px;
+    height: 25px;
+  }
+  /* Products Page */
+  .card {
+      box-shadow: 0 4px 8px 0 rgba (0,0,0,0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: left;
+      font-family: Arial;
+      color: black;
+      float: left;
+  }
+  .price {
+      color: gray;
+      font-size: 22px;
+  }
+  .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color:#000;
+      text-align:center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+  }
+.float {
+    float: left;
+    text-align: left;
+}
